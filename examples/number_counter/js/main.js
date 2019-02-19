@@ -5,6 +5,7 @@
 
 		return $(this).each(function () {
 			// set options for current element
+			// Gets their value from default values in jQuery(function($)), some values will be set in the html, like "speed" and "to"
 			var settings = $.extend({}, $.fn.countTo.defaults, {
 				from:            $(this).data('from'),
 				to:              $(this).data('to'),
@@ -64,6 +65,7 @@
 		});
 	};
 
+//Default values for various elements and methods
 	$.fn.countTo.defaults = {
 		from: 0,               // the number the element should start at
 		to: 0,                 // the number the element should end at
@@ -80,6 +82,7 @@
 	}
 }(jQuery));
 
+//
 jQuery(function ($) {
   // custom formatting example
   $('.count-number').data('countToOptions', {

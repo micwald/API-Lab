@@ -14,6 +14,7 @@ body {
 .col_half { width: 49%; }
 .col_third { width: 32%; }
 .col_fourth { width: 23.5%; }
+/*.col_fifth width were changed to match .col_fourth*/
 .col_fifth { width: 23.5%; }
 .col_sixth { width: 15%; }
 .col_three_fourth { width: 74.5%;}
