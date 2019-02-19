@@ -5,7 +5,7 @@ jQuery counter to count up to a target number
 
 # number_counter
 
-This project was made practising jQuery by making smaller changes with an already existing project and there after also understanding the code. A specially the jQuery code.
+This project was made practising jQuery by making smaller changes with an already existing project and there after also understanding the code. Especially the jQuery code.
 
 ## Getting started
 
