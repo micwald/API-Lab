@@ -2,6 +2,14 @@
 
 This project was made practising jQuery by making smaller changes with an already existing project and there after also understanding the code. Especially the jQuery code.
 
+## What the project does
+
+The project showcase gifs in a spinning picture carousel.
+
+## Why the project is useful for interaction design
+
+This animation can be used e.g. to showcase your projects in your portfolio or to learn how to change the parameters in the interactions the user makes.
+
 ## Getting started
 
 Download the whole Slideshow folder and open index.html file to play the game. Since jQuery library are directed online, you also need to be connected to internet.
