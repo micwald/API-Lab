@@ -14,4 +14,6 @@ Go to chrome and follow the instructions: https://www.google.com/chrome/?brand=C
 
 ## Authors
 
+* Martin - *initial work* - [Codepen](https://codepen.io/TheCodeDepository/pen/jKBaoN)
+
 Cathrine Jarting, Felix Blomqvist, Simon Ulvsand, Michael Waldorff
