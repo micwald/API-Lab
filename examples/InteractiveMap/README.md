@@ -1,10 +1,10 @@
-# API Maze
+# InteractiveMap
 
 This project was made practising jQuery by making smaller changes with an already existing project and there after also understanding the code. A specially the jQuery code.
 
 ## Getting started
 
-Download the whole API-maze folder and open index.html file to play the game. Since jQuery library are directed online, you also need to be connected to internet.
+Download the whole InteractiveMap folder and open index.html file to play the game. Since jQuery library are directed online, you also need to be connected to internet.
 
 ## Prerequisites
 
@@ -14,6 +14,7 @@ Go to chrome and follow the instructions: https://www.google.com/chrome/?brand=C
 
 ## Authors
 
-* Martin - *initial work* - [Codepen](https://codepen.io/TheCodeDepository/pen/jKBaoN)
+*initial work* A Pen created at CodePen.io.by Ali Myers. You can find this one at https://codepen.io/aomyers/pen/LWOwpR.
 
 Cathrine Jarting, Felix Blomqvist, Simon Ulvsand, Michael Waldorff
+ 

@@ -1,10 +1,10 @@
-# API Maze
+# API TIL WE DIE
 
 This project was made practising jQuery by making smaller changes with an already existing project and there after also understanding the code. A specially the jQuery code.
 
 ## Getting started
 
-Download the whole API-maze folder and open index.html file to play the game. Since jQuery library are directed online, you also need to be connected to internet.
+Download the whole API TIL WE DIE folder and open index.html file to play the game. Since jQuery library are directed online, you also need to be connected to internet.
 
 ## Prerequisites
 
@@ -14,6 +14,6 @@ Go to chrome and follow the instructions: https://www.google.com/chrome/?brand=C
 
 ## Authors
 
-* Martin - *initial work* - [Codepen](https://codepen.io/TheCodeDepository/pen/jKBaoN)
+* Ash Durham - *initial work* - [Codepen](https://codepen.io/ashdurham/pen/KdguB)
 
 Cathrine Jarting, Felix Blomqvist, Simon Ulvsand, Michael Waldorff

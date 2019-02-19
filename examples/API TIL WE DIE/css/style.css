@@ -5,7 +5,7 @@ html {
 }
 body {
   /* Added a gif as background. We set the size to cover the full screen. */
-  background-image: url("/img/fulsomfan.gif");
+  background-image: url("../img/fulsomfan.gif");
   /* background-color: black; */
   background-size: cover;
   /* background-color: black; */
@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
 
-  
+
 }
 h1 {
   text-align: center;
