@@ -5,7 +5,7 @@
 
 		return $(this).each(function () {
 			// set options for current element
-			// Gets their value from default values in jQuery(function($)), some values will be set in the html, like "speed and "to"
+			// Gets their value from default values in jQuery(function($)), some values will be set in the html, like "speed" and "to"
 			var settings = $.extend({}, $.fn.countTo.defaults, {
 				from:            $(this).data('from'),
 				to:              $(this).data('to'),
