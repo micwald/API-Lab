@@ -2,7 +2,7 @@ html, body{ background-color:#f7be23; }
 
 body
 { 
-	background-image: url('../images/background.jpg');
+	/* background-image: url('../images/background.jpg'); */
 	background-repeat: no-repeat;
 	background-position: top center;
 	width:100%;
@@ -131,6 +131,7 @@ a:hover
 
 		
 	}
+	/* Added class for gifs */
 	.hej {
 		max-width: 400px;
 		  max-height: 300px;
