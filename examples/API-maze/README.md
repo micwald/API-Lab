@@ -4,7 +4,7 @@ This project was made practising jQuery by making smaller changes with an alread
 
 ## Getting started
 
-Download the whole API-maze file and open index.html file to play the game. Since jQuery library are directed online, you also need to be connected to internet.
+Download the whole API-maze folder and open index.html file to play the game. Since jQuery library are directed online, you also need to be connected to internet.
 
 ## Prerequisites
 
