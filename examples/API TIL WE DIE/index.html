@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>API TIL WE DIE</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+   
+  <div class="container">
+    
+  <h1>API TIL WE DIE</h1>
+<div class="progress_bar">
+		  <hr class="all_steps">
+		  <hr class="current_steps">
+		  <div class="step current" id="step1" data-step="1">
+			    WE
+		  </div>
+		  <div class="step" id="step2" data-step="2">
+			    LOVE
+  		</div>
+		  <div class="step" id="step3" data-step="3">
+    			CODING
+		  </div>
+		  <div class="step" id="step4" data-step="4">
+			    SO
+		  </div>
+		  <div class="step" id="step5" data-step="5">
+			    HARD
+		  </div>
+	</div>
+
+<div id="blocks">
+  <div class="block" id="block1" style="left: 0%;">
+    <div class="wrap">
+      <h2>About jQuery</h2>
+      <ul>
+        <li><b>jQuery is one of most popular DOM manipulation libraries (React is catching up)</b></li>
+        <li><b>It’s easy to learn and incredibly fast</b></li>
+        <li><b>Significant amount of community support and project contributor</b></li>
+        <li><b>Works across many different browsers</b></li>
+      </ul>
+      <br />
+      <!-- added buttons to navigate back and forth between the steps -->
+      <a onclick="step_process(1, 2)" class="butt">Next</a>
+    </div>
+  </div>
+  <div class="block" id="block2">
+    <div class="wrap">
+      <h2>About jQuery</h2>
+      <ul>
+        <li><b>Could be used to build a interactive web application to simple tasks as adding a date picker to a form</b></li>
+        <li><b>Helps with methods like: </b><br />
+            - Select/maniplate elements <br />
+            - Create/animate elements <br />
+            - Add event listeners and effects 
+          </li>
+          <li><b>Usage percentages is 73.8% on all the websites </b><br />
+              - E.g. Google, Microsoft, Ebay and Netflix
+
+          </li>
+      </ul>
+      <br />
+      <!-- added buttons to navigate back and forth between the steps -->
+      <a onclick="step_process(2, 1, 'desc')" class="butt">Prev</a>
+      <a onclick="step_process(2, 3)" class="butt">Next</a>
+    </div>
+  </div>
+  <div class="block" id="block3">
+    <div class="wrap">
+      <h2>Why use it?</h2>
+      <ul>
+        <li><b>Lots of people use jQuery</b><br />
+        - Big society, strong community, great if you need help.<br />
+        - Lots of materials and resources.
+
+      </li>
+      <li><b>Easy to learn and use</b></li>
+      <li><b>Concise syntax</b><br />
+      - Makes the code clearer and shorter<br />
+      - Example: youmightnotneedjquery.com
+      </li>
+      <li><b>Built in cross-browser support</b></li>
+      </ul>
+
+      <br />
+      <!-- added buttons to navigate back and forth between the steps -->
+      <a onclick="step_process(3, 2, 'desc')" class="butt">Prev</a><a onclick="step_process(3, 4)" class="butt">Next</a>
+    </div>
+  </div>
+  <div class="block" id="block4">
+    <div class="wrap">
+      <h2>Why not use it?</h2>
+      <ul>
+        <li><b>A reason to use it were because it fixed broken DOM api, but the DOM api is no longer broken</b></li>
+          - DOM now has querySelector() querySelectorAll()
+          <li><b>You could do everything with or without it</b></li>
+          <li><b>If we only use few of the methods in jQuery it might be unnecessary due to being to ”heavy”</b></li>
+          - For example if you only need it for animation, there’s better tools out there specifically for animation (it would be overkill to use jQuery) 
+      </ul>
+      <br />
+      <!-- added buttons to navigate back and forth between the steps -->
+      <a onclick="step_process(4, 3, 'desc')" class="butt">Prev</a>
+      <a onclick="step_process(4, 5)" class="butt">Next</a>
+    </div>
+  </div>
+  <div class="block" id="block5">
+    <div class="wrap">
+      <h2>Examples</h2>
+      <ul>
+        <li><b>API TIL WE DIE</b></li> 
+        <li><b>Slideshow</b></li>
+        <li><b>Pickle Rick</b></li>   
+      </ul>
+      <br />
+      <!-- Toggle back to the first slide -->
+      <a onclick="step_process(5, 1, 'desc')" class="butt">BACK TO THE START</a>
+    </div>
+  </div>
+</div>
+<br class="clear" />
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+    
+
+
+
+
+</body>
+
+</html>
