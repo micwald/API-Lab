@@ -1,9 +1,13 @@
+
+// this function creates the possibility to toggle back and forth while it animates the direction of the progress bar.
+// with conditional statements it determines the direction, if the bar should ascend or descend.  
+
 function step_process(from, to, dir) {
     if (typeof(dir) === 'undefined') dir = 'asc';
     var old_move = '';
     var new_start = '';
 
-    var speed = 740;
+    var speed = 900;
 
     if (dir == 'asc') {
         old_move = '-';
@@ -12,6 +16,7 @@ function step_process(from, to, dir) {
         old_move = '';
         new_start = '-';
     }
+    // DOM manipulation code that access css properties and start the animation of the progress bar. 
 
     $('#block'+from).animate({left: old_move+'100%'}, speed, function() {
         $(this).css({left: '100%', 'background-color':'transparent', 'z-index':'2'}); 
@@ -21,9 +26,11 @@ function step_process(from, to, dir) {
     });
 
     if (Math.abs(from-to) === 1) {
-        // Next Step
+        // Next Step, if it meets the condition then add a new step and remove the current one. 
+        // Also DOM manipulation code that access the css property that changes the color of the text in the progress bar. 
         if (from < to) $("#step"+from).addClass('complete').removeClass('current');
         else $("#step"+from).removeClass('complete').removeClass('current');
+        // creates an integer number which defines how far the animated line should go. 
         var width = (parseInt(to) - 1) * 20;
         $(".progress_bar").find('.current_steps').animate({'width': width+'%'}, speed, function() {
             $("#step"+to).removeClass('complete').addClass('current');
@@ -39,8 +46,11 @@ function step_process(from, to, dir) {
         }
     }
 }
-    
-function move_to_step(step, end, dir, step_speed) {
+    // We can't figure out how this function changes anything with the appearance of the progress bar. 
+    // We find it very similar to the function above and therefor we have commented it out. 
+
+
+/*function move_to_step(step, end, dir, step_speed) {
     if (dir == 'asc') {
         $("#step"+step).addClass('complete').removeClass('current');
         var width = (parseInt(step+1) - 1) * 20;
@@ -57,6 +67,9 @@ function move_to_step(step, end, dir, step_speed) {
         });
     }
 }
+*/
+// DOM manipulation code. Should be similar to DOM syntax that will communicate the javascript code with css and html.
+// The click event will trigger the animation and make the progress bar move back and forth. 
 
 $(document).ready(function() {
     $("body").on("click", ".progress_bar .step.complete", function() {
