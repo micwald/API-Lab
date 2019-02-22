@@ -10,16 +10,6 @@ The project showcase gifs in a spinning picture carousel.
 
 This animation can be used e.g. to showcase your projects in your portfolio or to learn how to change the parameters in the interactions the user makes.
 
-## Getting started
-
-Download the whole Slideshow folder and open index.html file to play the game. Since jQuery library are directed online, you also need to be connected to internet.
-
-## Prerequisites
-
-For best experience use google chrome browser. 
-
-Go to chrome and follow the instructions: https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAiA767jBRBqEiwAGdAOr-8vgl7AA6mi4OMMUh7OM6hAyNC-Y4NxcPB84SM9ZNMfAmBbBHddzRoC4o4QAvD_BwE&gclsrc=aw.ds
-
 ## Authors
 
 A Pen created at CodePen.io. *Inital work* by John Blazek You can find this one at https://codepen.io/johnblazek/pen/nceyw.
