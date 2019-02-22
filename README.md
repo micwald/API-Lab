@@ -1,6 +1,13 @@
 # API-Lab
-Api-lab project
-jQuery is a DOM manipulation library and that is the library we used
+
+Api-lab project with jQuery library
+
+### jQuery is a DOM manipulation library 
+- Could be used to build a interactive web application to simple tasks as adding a date picker to a form
+- Helps with methods like: 
+  - Select/manipulate elements 
+  - Create/animate elements 
+  - Add event listeners and effects
 
 ## Getting started
 
