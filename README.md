@@ -10,8 +10,8 @@
 
 ## Getting started
 
-Download the whole example folder and open index.html file to play the game. Since jQuery library are directed online, you also need to be connected to internet.
-The jQuery library is accessed from a cdn, there's no need to download the jQuery library.
+Download the whole example folder and open index.html file to try out the example selected.
+Since jQuery library are directed online, you also need to be connected to internet, the jQuery library is accessed from a cdn, there's no need to download the jQuery library.
 
 ## Prerequisites
 
