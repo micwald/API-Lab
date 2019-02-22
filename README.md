@@ -1,8 +1,7 @@
-# API-Lab
-
-Api-lab project with jQuery library
+# API-Lab project with jQuery library
 
 ### jQuery is a DOM manipulation library 
+- jQuery was created in 2006 
 - Could be used to build a interactive web application to simple tasks as adding a date picker to a form
 - Helps with methods like: 
   - Select/manipulate elements 
@@ -12,6 +11,7 @@ Api-lab project with jQuery library
 ## Getting started
 
 Download the whole example folder and open index.html file to play the game. Since jQuery library are directed online, you also need to be connected to internet.
+The jQuery library is accessed from a cdn, there's no need to download the jQuery library.
 
 ## Prerequisites
 
